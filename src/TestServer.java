@@ -8,6 +8,9 @@ public class TestServer {
         servers.put('Z', 1);
 
         LoadBalancer balancer = new LoadBalancer(servers);
-
+        balancer.convertValueToRanges();
+        for (int i = 1 ; i <= 100; i++) {
+            System.out.println(balancer.getServer());
+        }
     }
 }
