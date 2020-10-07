@@ -14,7 +14,7 @@ public class LoadBalancer {
         for(Character key: keys) {
             range = range + map.get(key);
             map.put(key, range);
-           System.out.println("range: " + range);
         }
+        //System.out.println("range: " + range);
     }
 }
