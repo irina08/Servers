@@ -10,7 +10,7 @@ public class TestServer {
         LoadBalancer balancer = new LoadBalancer(servers);
         balancer.convertValueToRanges();
         for (int i = 1 ; i <= 100; i++) {
-            System.out.println(balancer.getServer());
+            System.out.print(balancer.getServer());
         }
     }
 }
