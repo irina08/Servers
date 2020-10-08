@@ -17,4 +17,16 @@ public class LoadBalancer {
         }
         //System.out.println("range: " + range);
     }
+
+    public char getServer() {
+        Random rand = new Random();
+        int random = rand.nextInt(range) + 1;
+        Character server = null;
+        for(Character key: keys)
+            if(random <= map.get(key)) {
+                server = key;
+                break;
+            }
+        return server;
+    }
 }
