@@ -23,3 +23,5 @@ C
 bash-3.2$ program X:3 Y:1 Z:3
 X
 
+Need to run program 100 times to test if the distribution is correct 
+(approximately the right percentage).
