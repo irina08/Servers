@@ -16,3 +16,10 @@ bash-3.2$ program X:3 Y:1
 X
 bash-3.2$ program X:3 Y:1
 X
+
+There can be any number of servers passed on the command line:
+bash-3.2$ program A:3 B:2 D:4 E:1
+C
+bash-3.2$ program X:3 Y:1 Z:3
+X
+
